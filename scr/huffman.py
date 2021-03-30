@@ -40,5 +40,5 @@ end = timeit.default_timer()
 with open('compressed_file.bin', 'wb') as w:
     encoded_text.tofile(w)
 
-print(f'arquivo {path}')
+print(f'\narquivo {path}')
 print('tempo de processamento: %f' % (end - start))
